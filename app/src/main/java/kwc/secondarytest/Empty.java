@@ -44,6 +44,8 @@ public class Empty extends AppCompatActivity {
     private Pair<Integer, String> HoogsteLand(){
         // Maak een lijst van landen
         List<Pair<Integer, String>> alleLanden = new ArrayList<>();
+
+        //  Voeg elk land toe aan de lijst.
         alleLanden.add(canada);
         alleLanden.add(alaska);
         alleLanden.add(vs);
